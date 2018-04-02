@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="collection.xsl"?>
+<collection>
+	<cds>
+		<cd id="c10" length="90">
+			<title>Imagine</title>
+			<artist>John Lennon</artist>
+			<country>England</country>
+			<company>JL. Songs</company>
+			<price discount="5">10.90</price>
+			<year>1978</year>
+		</cd>
+		<cd id="c20" length="45">
+			<title>Just Today</title>
+			<artist>Anna Taikka</artist>
+			<country>Finland</country>
+			<company>Finnish Song</company>
+			<price discount="8">40.90</price>
+			<year>2005</year>
+		</cd>
+		<cd id="c30" length="120">
+			<title>Uprising</title>
+			<artist>Bob Marley</artist>
+			<country>Jamaica</country>
+			<company>JL. Songs</company>
+			<price discount="12">8.90</price>
+			<year>1978</year>
+		</cd>
+		<cd id="c40" length="90">
+			<title>That's the Way It Is</title>
+			<artist>Elvis Presley</artist>
+			<country>USA</country>
+			<company>Nostalgic Song</company>
+			<price discount="20">30.90</price>
+			<year>2008</year>
+		</cd>
+	</cds>
+	<videos>
+		<video id="v10">
+			<title>Scarry Movie</title>
+			<artist>Johnny Unknown</artist>
+			<country>Germany</country>
+			<company>Thriller Movies GMBH</company>
+			<price discount="8">23.90</price>
+			<year>2010</year>
+		</video>
+		<video id="v20">
+			<title>Apocalypto</title>
+			<artist>Garcia</artist>
+			<country>Mexico</country>
+			<company>Latin America Features</company>
+			<price discount="6">32.90</price>
+			<year>2006</year>
+		</video>
+		<video id="v30">
+			<title>Troy</title>
+			<artist>Brad Pits</artist>
+			<country>US</country>
+			<company>Ancient Movies</company>
+			<price discount="15">25.90</price>
+			<year>2000</year>
+		</video>
+		<video id="v40">
+			<title>Psycho</title>
+			<artist>Norman Bates</artist>
+			<country>US</country>
+			<company>Alfred Hichkcoks</company>
+			<price discount="25">40.90</price>
+			<year>1976</year>
+		</video>
+	</videos>
+</collection>

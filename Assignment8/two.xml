@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="two.xsl"?>
+<movie_shop>
+	<movies>
+		<movie type="Draama" id='m10'>
+			<name>Memorable Childhood</name>
+			<price>8.5</price>
+			<release_year>2006</release_year>
+		</movie>
+		<movie type="Comedy" id='m20'>
+			<name>Amazing Friends</name>
+			<price>3.8</price>
+			<release_year>2009</release_year>
+		</movie>
+		<movie type="Thriller" id='m30'>
+			<name>Strange Friendship</name>
+			<price>3.5</price>
+			<release_year>2012</release_year>
+		</movie>
+
+		<movie type="Thriller" id='m40'>
+			<name>Forgotten Memories</name>
+			<price>4.2</price>
+			<release_year>2013</release_year>
+		</movie>
+		<movie type="Comedy" id='m50'>
+			<name>Unexpected Guests</name>
+			<price>2.35</price>
+			<release_year>2007</release_year>
+		</movie>
+
+	</movies>
+
+	<customers>
+		<customer id="c10">
+			<name>Simin</name>
+			<phone>+901234567</phone>
+			<rented_movies>
+				<rented_movie duration='3'>m10</rented_movie>
+				<rented_movie duration='2'>m40</rented_movie>
+			</rented_movies>
+		</customer>
+
+		<customer id="c20">
+			<name>Kaveh</name>
+			<phone>+608034567</phone>
+			<rented_movies>
+				<rented_movie duration='1'>m30</rented_movie>
+				<rented_movie duration='5'>m50</rented_movie>
+			</rented_movies>
+		</customer>
+
+		<customer id="c30">
+			<name>Bardia</name>
+			<phone>+3587004567</phone>
+			<rented_movies>
+				<rented_movie duration='2'>m10</rented_movie>
+				<rented_movie duration='4'>m20</rented_movie>
+				<rented_movie duration='7'>m50</rented_movie>
+			</rented_movies>
+		</customer>
+
+		<customer id="c40">
+			<name>Sepehr</name>
+			<phone>+2001234567</phone>
+		</customer>
+
+		<customer id="c40">
+			<name>Shirin</name>
+			<phone>+8401234567</phone>
+		</customer>
+	</customers>
+
+</movie_shop>
